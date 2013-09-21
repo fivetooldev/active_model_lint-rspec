@@ -5,7 +5,7 @@ Climate](https://codeclimate.com/github/geoffharcourt/active_model_lint-rspec.pn
 
 Form objects are a great way to move logic out of your controllers and models while ensuring that classes focus on their core responsibility. When you implement ActiveModel behavior in a class, this gem provides a one-line test to ensure that your class implements required behavior such as the ````#persisted?```` method that is required for your form object to function within a Rails form.
 
-The code here was shamelessly cribbed from an example published by [Mike Gerhard](http://github.com/msgehard) at Pivotal Labs. It appears in this [blog post](http://pivotallabs.com/making-sure-you-implement-the-activemodel-interface-fully/). This gem merely puts the shared example into a gem for easy distribution into your project.
+The code here was shamelessly cribbed from an example published by [Mike Gehard](http://github.com/msgehard) at Pivotal Labs. It appears in this [blog post](http://pivotallabs.com/making-sure-you-implement-the-activemodel-interface-fully/). This gem merely puts the shared example into a gem for easy distribution into your project.
 
 ## Example
 
