@@ -47,7 +47,7 @@ Require the gem after RSpec has been required.
 
 ```ruby
 require 'rspec'
-require 'active_model_lint_rspec'
+require 'active_model_lint-rspec'
 ```
 
 ## Further reading
