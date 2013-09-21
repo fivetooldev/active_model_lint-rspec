@@ -16,6 +16,19 @@ describe MyFormObjectClass do
 end
 ```
 
+Then run your specs:
+
+```
+MyFormObjectClass
+  behaves like an ActiveModel
+    test persisted?
+    test to param
+    test to partial path
+    test to key
+    test model naming
+    test errors aref
+```
+
 ## Installation
 
 ###Rails and other Bundler projects
