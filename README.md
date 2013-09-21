@@ -1,3 +1,6 @@
+[![Code
+Climate](https://codeclimate.com/github/geoffharcourt/active_model_lint-rspec.png)](https://codeclimate.com/github/geoffharcourt/active_model_lint-rspec)
+
 # ActiveModel Lint for RSpec
 
 Form objects are a great way to move logic out of your controllers and models while ensuring that classes focus on their core responsibility. When you implement ActiveModel behavior in a class, this gem provides a one-line test to ensure that your class implements required behavior such as the ````#persisted?```` method that is required for your form object to function within a Rails form.
