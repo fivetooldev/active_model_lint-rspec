@@ -1,6 +1,8 @@
+require 'active_model_lint-rspec/version'
+
 Gem::Specification.new do |s|
   s.name        = 'active_model_lint-rspec'
-  s.version     = '0.0.1'
+  s.version     = ActiveModelLintRspec::VERSION
   s.date        = '2013-09-21'
   s.summary     = "Implements ActiveModel::Lint::Tests in RSpec."
   s.description = "Provides the ActiveModel::Lint::Tests for test-unit or minitest an RSpec shared example."
@@ -14,6 +16,6 @@ Gem::Specification.new do |s|
   s.license       = 'MIT'
 
   s.add_dependency("activemodel", ">= 3.0")
-  s.add_dependency("rspec-core")
+  s.add_dependency("rspec")
 end
 
